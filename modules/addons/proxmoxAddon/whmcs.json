@@ -1,0 +1,28 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-provisioning",
+  "name": "proxmoxAddon",
+  "license": "proprietary",
+  "category": "provisioning",
+  "description": {
+    "name": "Proxmox Addon",
+    "tagline": "Supply virtual servers and allow their close handling. Enable your clients to manage all server components remotely.",
+    "short": "Supply virtual servers and allow their close handling. Enable your clients to manage all server components remotely.",
+    "long": "Proxmox Addon is an extension for Proxmox VE VPS and Proxmox Cloud modules allowing you to monitor and manage your servers, IP addresses and clusters.\nThe most important difference between Proxmox VE VPS For WHMCS and Proxmox VE Cloud VPS For WHMCS modules appears in the possibilities offered to your customers. The first enables your clients to manage a single, predetermined virtual private server per WHMCS product. The other one allows your clients to freely create, modify, delete and manage multiple virtual private servers per WHMCS product. You can combine both modules together in order to maximize the diversity and attractiveness of your offer."
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https://www.modulesgarden.com/products/whmcs/proxmox-vps",
+    "learn_more": "https://www.modulesgarden.com/products/whmcs/proxmox-vps#features",
+    "support_url": "https://www.modulesgarden.com/support",
+    "docs_url": "https://www.docs.modulesgarden.com/Proxmox_VPS_For_WHMCS"
+  },
+  "authors": [
+    {
+      "name": "ModulesGarden",
+      "homepage": "https://www.modulesgarden.com/"
+    }
+  ]
+}

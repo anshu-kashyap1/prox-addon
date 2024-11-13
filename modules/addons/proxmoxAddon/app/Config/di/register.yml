@@ -1,0 +1,2 @@
+class:
+  - {namespace: '\\ModulesGarden\\ProxmoxAddon\\App\\Services\\Vm',            alias: "Vm", singleton: true , auto: false}

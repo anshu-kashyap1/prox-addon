@@ -1,0 +1,28 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-provisioning",
+  "name": "proxmoxVPS",
+  "license": "proprietary",
+  "category": "provisioning",
+  "description": {
+    "name": "Proxmox VE VPS",
+    "tagline": "Let your clients remotely access consoles, view usage graphs, manage backups and much more right in WHMCS.",
+    "short": "Let your clients remotely access consoles, view usage graphs, manage backups and much more right in WHMCS.",
+    "long": "ModulesGarden Proxmox VE VPS For WHMCS is an innovatory module that will automate all stages of provisioning virtual servers, from delivery to close management. Owing to clear configuration, you will quickly and capably set up ready products in your WHMCS, then offer them directly to customers!\nWith the mass of components implemented straight into the client area, your customers will be able to handle all crucial elements of their virtual machines, including backups and firewall, as well as access noVNC, SPICE, or Xterm.js console, study graphs and statistics, and so much more. A further point worthy of your note is support for Cloud-Init for the KVM virtualization type, enabling the automatic application of user data to your cloud instances. The module also features an incredible Proxmox Addon that will help you take close control over your servers, IP addresses and clusters - without ever needing to leave WHMCS."
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https://www.modulesgarden.com/products/whmcs/proxmox-vps",
+    "learn_more": "https://www.modulesgarden.com/products/whmcs/proxmox-vps#features",
+    "support_url": "https://www.modulesgarden.com/support",
+    "docs_url": "https://www.docs.modulesgarden.com/Proxmox_VPS_For_WHMCS"
+  },
+  "authors": [
+    {
+      "name": "ModulesGarden",
+      "homepage": "https://www.modulesgarden.com/"
+    }
+  ]
+}

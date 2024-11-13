@@ -1,0 +1,6 @@
+class:
+    - {name: "\\ModulesGarden\\ProxmoxAddon\\Core\\Http\\Request", method: "build",                        args: []}
+    - {name: '\\ModulesGarden\\ProxmoxAddon\\Core\\Http\\View\\Smarty',  method: "get",                    args: [NULL,NULL]}
+    - {name: '\\ModulesGarden\\ProxmoxAddon\\Core\\HandlerError\\Logger',  method: "get",                  args: ["default","debug.log","warning.log","error.log"]}
+    - {name: '\\ModulesGarden\\ProxmoxAddon\\Core\\Cache\\CacheManager',  method: "cache",                 args: []}
+    - {name: '\\ModulesGarden\\ProxmoxAddon\\Core\\RegisterManager\\Register',  method: "getInstace",      args: []}

@@ -1,0 +1,30 @@
+home:
+  icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-home'
+  submenu:
+    servers: []
+    vms: []
+    recoveryVms: []
+    taskHistory: []
+ipManagement:
+  icon: 'lu-lu-nav__link-icon lu-zmdi lu-zmdi lu-zmdi-import-export'
+  submenu:
+    management: []
+    log: []
+settings:
+  icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-settings'
+  submenu:
+    index: []
+    backupScheduleTemplates: []
+    firewallTemplates: []
+    osGroups: []
+Jobs:
+  icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-assignment'
+CloudInitScript:
+  icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-cloud-upload'
+documentation:
+  icon: 'lu-lu-nav__link-icon lu-zmdi lu-zmdi-file-text'
+  submenu:
+    vps:
+      externalUrl: "https://www.docs.modulesgarden.com/Proxmox_VPS_For_WHMCS"
+    cloud:
+      externalUrl: "https://www.docs.modulesgarden.com/Proxmox_Cloud_VPS_For_WHMCS"

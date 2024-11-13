@@ -1,0 +1,15 @@
+{
+  "std": "Standard VGA",
+  "cirrus"  : "Cirrus Logic",
+  "vmware"  : "VMWare",
+  "serial0" : "Serial terminal 0",
+  "serial1" : "Serial terminal 1",
+  "serial2" : "Serial terminal 2",
+  "serial3" : "Serial terminal 3",
+  "qxl"     : "SPICE",
+  "qxl2"    : "SPICE dual monitor",
+  "qxl3"    : "SPICE three monitor",
+  "qxl4"    : "SPICE four monitor",
+  "virtio" : "VirtIO-GPU",
+  "none": "None"
+}

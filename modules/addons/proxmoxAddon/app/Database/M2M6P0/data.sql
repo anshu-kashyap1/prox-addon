@@ -1,0 +1,1 @@
+UPDATE `mg_proxmox_addon_ip` SET mac_address=NULL WHERE mac_address='auto';

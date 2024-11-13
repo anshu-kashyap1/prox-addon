@@ -1,0 +1,4 @@
+- \ModulesGarden\ProxmoxAddon\Core\Lang\Lang
+- \ModulesGarden\ProxmoxAddon\Core\App\Controllers\Instances\Addon\Config
+- \ModulesGarden\ProxmoxAddon\Core\UI\Widget\Sidebar\SidebarService
+- \ModulesGarden\ProxmoxAddon\Core\Helper\WhmcsParams

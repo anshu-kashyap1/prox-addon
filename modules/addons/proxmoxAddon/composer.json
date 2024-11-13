@@ -1,0 +1,40 @@
+{
+    "name": "modulesgarden/proxmoxaddon",
+    "description": "",
+    "version": "2.1.0",
+    "type": "project",
+    "license": "EULA",
+    "homepage": "http://www.modulesgarden.com",
+    "support":
+            {
+                "email": "contact@modulesgarden.com",
+                "issues": "http://www.modulesgarden.com/customers/support",
+                "forum": "http://www.forum.modulesgarden.com/"
+            },
+    "authors": [
+    ],
+    "require":
+            {
+                "php": ">=5.5.9",
+                "symfony/yaml": "^3.3",
+                "piwik/ini": "^1.0",
+                "symfony/cache": "^3.3",
+                "mso/idna-convert": "1.*",
+                "adbario/php-dot-notation": "2.*",
+        "rappasoft/laravel-helpers": "^1.0",
+        "phpseclib/phpseclib": "~3.0"
+            },
+    "autoload": {
+        "psr-4": {
+            "ModulesGarden\\ProxmoxAddon\\Core\\": "./core",
+            "ModulesGarden\\ProxmoxAddon\\App\\": "./app",
+            "MGProvision\\Proxmox\\": "../../../includes/Proxmox",
+            "ModulesGarden\\Servers\\ProxmoxVps\\Core\\": "../../servers/proxmoxVPS/core",
+            "ModulesGarden\\Servers\\ProxmoxVps\\App\\": "../../servers/proxmoxVPS/appcorm "
+        },
+        "files": [
+            "core/Helper/Functions.php",
+            "app/Libs/IPv6.php"
+        ]
+    }
+}

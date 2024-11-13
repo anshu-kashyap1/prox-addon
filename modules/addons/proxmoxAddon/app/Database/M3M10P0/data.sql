@@ -1,0 +1,2 @@
+UPDATE `ProxmoxAddon_Vm` vm JOIN `tblhosting` h ON vm.hosting_id = h.id SET vm.server_id = h.server WHERE vm.server_id IS NULL;
+UPDATE `ProxmoxAddon_VirtualNetwork` vn JOIN `tblhosting` h ON vn.hosting_id = h.id SET vn.server_id = h.server WHERE vn.server_id IS NULL;

@@ -1,0 +1,5 @@
+{
+  "ACCEPT" : "ACCEPT",
+  "DROP"   : "DROP",
+  "REJECT" : "REJECT"
+}

@@ -1,0 +1,9 @@
+class:
+  - {old: '\\ModulesGarden\\ProxmoxAddon\\Core\\Configuration\\Addon\\Config\\After',     new: '\\ModulesGarden\\ProxmoxAddon\\App\\Configuration\\Addon\\Config\\After'}
+  - {old: '\\ModulesGarden\\ProxmoxAddon\\Core\\Configuration\\Addon\\Activate\\After',   new: '\\ModulesGarden\\ProxmoxAddon\\App\\Configuration\\Addon\\Activate\\After'}
+  - {old: '\\ModulesGarden\\ProxmoxAddon\\Core\\Configuration\\Addon\\Deactivate\\After', new: '\\ModulesGarden\\ProxmoxAddon\\App\\Configuration\\Addon\\Deactivate\\After'}
+  - {old: '\\ModulesGarden\\ProxmoxAddon\\Core\\Configuration\\Addon\\Update\\After',     new: '\\ModulesGarden\\ProxmoxAddon\\App\\Configuration\\Addon\\Update\\After'}
+  - {old: '\\ModulesGarden\\ProxmoxAddon\\Core\\Configuration\\Addon\\Config\\Before',    new: '\\ModulesGarden\\ProxmoxAddon\\App\\Configuration\\Addon\\Config\\Before'}
+  - {old: '\\ModulesGarden\\ProxmoxAddon\\Core\\Configuration\\Addon\\Activate\\Before',  new: '\\ModulesGarden\\ProxmoxAddon\\App\\Configuration\\Addon\\Activate\\Before'}
+  - {old: '\\ModulesGarden\\ProxmoxAddon\\Core\\Configuration\\Addon\\Deactivate\\Before',new: '\\ModulesGarden\\ProxmoxAddon\\App\\Configuration\\Addon\\Deactivate\\Before'}
+  - {old: '\\ModulesGarden\\ProxmoxAddon\\Core\\Configuration\\Addon\\Update\\Before',    new: '\\ModulesGarden\\ProxmoxAddon\\App\\Configuration\\Addon\\Update\\Before'}

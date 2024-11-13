@@ -1,0 +1,26 @@
+{
+    "name": "ModulesGarden/Proxmox",
+    "description": "",
+    "version": "2.5.0",
+    "type": "project",
+    "license": "EULA",
+    "homepage": "http://www.modulesgarden.com",
+    "support":
+            {
+                "email": "contact@modulesgarden.com",
+                "issues": "http://www.modulesgarden.com/customers/support",
+                "forum": "http://www.forum.modulesgarden.com/"
+            },
+    "authors": [
+    ],
+    "require":
+            {
+                "php": ">=5.3.7",
+                "phpseclib/phpseclib": "2.*"
+            },
+    "autoload": {
+        "psr-4": {
+            "MGProvision\\Proxmox\\v2\\": "./v2"
+        }
+    }
+}

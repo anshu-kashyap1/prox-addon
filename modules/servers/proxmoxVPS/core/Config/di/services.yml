@@ -1,0 +1,5 @@
+- \ModulesGarden\Servers\ProxmoxVps\Core\Lang\Lang
+- \ModulesGarden\Servers\ProxmoxVps\Core\App\Controllers\Instances\Addon\Config
+- \ModulesGarden\Servers\ProxmoxVps\Core\UI\Widget\Sidebar\SidebarService
+- \ModulesGarden\Servers\ProxmoxVps\Core\Helper\WhmcsParams
+- \ModulesGarden\Servers\ProxmoxVps\Core\App\AppParamsContainer

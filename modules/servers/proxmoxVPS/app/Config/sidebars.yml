@@ -1,0 +1,43 @@
+managementProxmoxVps:
+  backup:
+    order: 701
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=backup'
+  allVmsBackups:
+    order: 702
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=AllVmsBackups'
+  backupJob:
+    order: 703
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=backupJob'
+  backupSchedule:
+    order: 704
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=backupSchedule'
+  disk:
+    order: 705
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=disk'
+  firewall:
+    order: 706
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=firewall'
+  firewallOption:
+    order: 707
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=firewallOption'
+  graph:
+    order: 708
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=graph'
+  network:
+    order: 709
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=network'
+  reinstall:
+    order: 710
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=reinstall'
+  resourcesNotification:
+    order: 711
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=resourcesNotification'
+  snapshot:
+    order: 712
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=snapshot'
+  taskHistory:
+    order: 713
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=taskHistory'
+  vmPowerTasks:
+    order: 714
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=vmPowerTasks'
